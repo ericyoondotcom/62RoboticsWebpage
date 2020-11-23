@@ -1,0 +1,75 @@
+$fg-color: #cf0a2c;
+$text-color: #ffffff;
+$bg-color: #1f1f1f;
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#main_content {
+    font-family: "Source Sans Pro", sans-serif;
+    background-color: $bg-color;
+}
+
+#navbar {
+    background-color: $fg-color;
+    color: $text-color;
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .item {
+        display: flex;
+        align-items: center;
+        padding-left: 25px;
+        padding-right: 25px;
+        text-transform: uppercase;
+        font-size: 17px;
+        font-weight: bold;
+        height: 100%;
+        transition: background-color .5s;
+        &:hover {
+            background-color: adjust-color($fg-color, $lightness: -15%);
+        }
+        &.active {
+            background-color: adjust-color($fg-color, $lightness: 10%);
+        }
+    }
+
+    #logo_container {
+        height: 100%;
+        width: 100px;
+        position: relative;
+        box-sizing: border-box;
+        padding: 12px;
+        #logo_content {
+            // so the position: absolute elements respect paddin
+            position: relative;
+            height: 100%;
+            img {
+                max-height: 100%;
+                opacity: 1;
+                position: absolute;
+                margin: 0 auto;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                transition: opacity .7s, width .7s, height .7s;
+                
+                &.hidden {
+                    opacity: 0;
+                    width: 0;
+                    height: 0;
+                    margin: none;
+                    padding: none;
+                    
+                }
+            }
+        }
+    }
+}
