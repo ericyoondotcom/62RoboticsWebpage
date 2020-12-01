@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import Logo62 from "../resources/62.png";
 import LogoHW from "../resources/hw-bw.png";
-import {Link} from "react-router-dom";
+import {HashLink as Link} from "react-router-hash-link";
 
 class Navbar extends React.Component {
     constructor(props){
@@ -31,9 +31,19 @@ class Navbar extends React.Component {
                         <img src={Logo62} alt="62 Wordmark" class={this.state.logoHovering ? "" : "hidden"} />
                     </div>
                 </div>
+                <Link to="#home">
+                    <div class={`item ${active == "home" ? "active" : ""}`}>
+                        <p>Home</p>
+                    </div>
+                </Link>
                 <Link to="#about">
                     <div class={`item ${active == "about" ? "active" : ""}`}>
                         <p>About</p>
+                    </div>
+                </Link>
+                <Link to="#process">
+                    <div class={`item ${active == "process" ? "active" : ""}`}>
+                        <p>Our Process</p>
                     </div>
                 </Link>
             </div>
