@@ -46,6 +46,16 @@ class Navbar extends React.Component {
                         <p>Our Process</p>
                     </div>
                 </Link>
+                <Link to="#teams">
+                    <div class={`item ${active == "process" ? "active" : ""}`}>
+                        <p>Meet the Teams</p>
+                    </div>
+                </Link>
+                <Link to="#acknowledgements">
+                    <div class={`item ${active == "process" ? "active" : ""}`}>
+                        <p>Acknowledgements</p>
+                    </div>
+                </Link>
             </div>
         );
     }

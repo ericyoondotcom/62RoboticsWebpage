@@ -155,8 +155,8 @@ h1 {
 
 #process {
     background-color: #ffffff;
+    text-align: center;
     h1 {
-        text-align: center;
         margin-bottom: 50px;
     }
     #engineering_design_animation {
@@ -209,5 +209,93 @@ h1 {
     .break {
         flex-basis: 100%;
         height: 0;
+    }
+}
+
+.collapsible {
+    .handle {
+        
+    }
+}
+
+#teams {
+    text-align: center;
+    color: $text-color;
+    h1 {
+        margin: 20px 0 50px 0;
+    }
+}
+
+#teams-library {
+    text-align: center;
+    padding: 50px 10vw;
+    transition: height .5s;
+
+    &.hidden {
+        height: 0;
+        padding: 0;
+        overflow-y: hidden;
+    }
+}
+
+.team_icon {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+    margin: 25px;
+    img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    .gear_outline {
+        z-index: 2;
+        transition: transform .3s;
+    }
+    .identifier_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        p {
+            font-size: 100px;
+            z-index: 1;
+            font-family: "Bungee", sans-serif;
+            font-weight: bold;
+            color: #111111;
+        }
+    }
+
+    &:hover {
+        .gear_outline {
+            transform: rotate(22.5deg);
+        }
+    }
+}
+
+#team-info {
+    background-color: $fg-color;
+    color: $text-color;
+    height: auto;
+    padding: 50px 30vw;
+    margin-top: 50px;
+    transition: height .5s, padding .5s;
+    &.hidden {
+        height: 0px;
+        margin: 0;
+        padding: 0;
+        overflow-y: hidden;
+    }
+    h1 {
+        color: $text-color;
     }
 }
