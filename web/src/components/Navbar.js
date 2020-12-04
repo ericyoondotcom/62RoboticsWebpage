@@ -27,32 +27,32 @@ class Navbar extends React.Component {
                     }}
                 >
                     <div id="logo_content">
-                        <img src={LogoHW} alt="Harvard-Westlake Wordmark" class={this.state.logoHovering ? "hidden" : ""} />
-                        <img src={Logo62} alt="62 Wordmark" class={this.state.logoHovering ? "" : "hidden"} />
+                        <img src={LogoHW} alt="Harvard-Westlake Wordmark" className={this.state.logoHovering ? "hidden" : ""} />
+                        <img src={Logo62} alt="62 Wordmark" className={this.state.logoHovering ? "" : "hidden"} />
                     </div>
                 </div>
                 <Link to="#home">
-                    <div class={`item ${active == "home" ? "active" : ""}`}>
+                    <div className={`item ${active == "home" ? "active" : ""}`}>
                         <p>Home</p>
                     </div>
                 </Link>
                 <Link to="#about">
-                    <div class={`item ${active == "about" ? "active" : ""}`}>
+                    <div className={`item ${active == "about" ? "active" : ""}`}>
                         <p>About</p>
                     </div>
                 </Link>
                 <Link to="#process">
-                    <div class={`item ${active == "process" ? "active" : ""}`}>
+                    <div className={`item ${active == "process" ? "active" : ""}`}>
                         <p>Our Process</p>
                     </div>
                 </Link>
                 <Link to="#teams">
-                    <div class={`item ${active == "process" ? "active" : ""}`}>
+                    <div className={`item ${active == "process" ? "active" : ""}`}>
                         <p>Meet the Teams</p>
                     </div>
                 </Link>
                 <Link to="#acknowledgements">
-                    <div class={`item ${active == "process" ? "active" : ""}`}>
+                    <div className={`item ${active == "process" ? "active" : ""}`}>
                         <p>Acknowledgements</p>
                     </div>
                 </Link>

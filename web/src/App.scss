@@ -23,6 +23,10 @@ h1 {
     font-family: "Bungee";
     font-weight: bold;
     color: $fg-color;
+    font-size: 50px;
+    &.smaller {
+        font-size: 32px;
+    }
 }
 
 .rails {
@@ -150,6 +154,7 @@ h1 {
     p {
         color: white;
         font-size: 20px;
+        text-align: justify;
     }
 }
 
@@ -221,12 +226,13 @@ h1 {
 #teams {
     text-align: center;
     color: $text-color;
-    h1 {
+    padding-bottom: 0;
+    & > h1 {
         margin: 20px 0 50px 0;
     }
 }
 
-#teams-library {
+#teams_library {
     text-align: center;
     padding: 50px 10vw;
     transition: height .5s;
@@ -282,20 +288,88 @@ h1 {
     }
 }
 
-#team-info {
+#team_info {
     background-color: $fg-color;
     color: $text-color;
     height: auto;
-    padding: 50px 30vw;
+    padding: 100px 30vw;
     margin-top: 50px;
     transition: height .5s, padding .5s;
+    position: relative;
+
     &.hidden {
         height: 0px;
-        margin: 0;
-        padding: 0;
+        padding-top: 0;
+        padding-bottom: 0;
         overflow-y: hidden;
     }
     h1 {
         color: $text-color;
+        font-family: "Sen", sans-serif;
+        font-size: 75px;
+        margin: 0 10px;
+    }
+    h2 {
+        font-weight: normal;
+        font-size: 30px;
+        margin: none;
+    }
+    p {
+        color: #000000;
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    #close_button {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        font-size: 50px;
+        cursor: pointer;
+    }
+
+    $slide-height: 500px;
+    .react-slideshow-container {
+        width: 100%;
+        height: $slide-height;
+        .slide {
+            width: 100%;
+            height: $slide-height;
+            .img_container {
+                width: 100%;
+                height: $slide-height;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img {
+                    max-width: 100%;
+                    max-height: 100%;
+                }
+            }
+        }
+    }
+    .slide_arrow {
+        font-size: 30px;
+        width: 50px;
+        color: white;
+        transition: color .2s;
+        
+        &.left {
+            margin-right: -50px;
+        }
+        &.right {
+            margin-left: -50px;
+        }
+        &:hover {
+            color: adjust-color($color: white, $lightness: -30%);
+        }
+    }
+}
+
+#acknowledgements {
+    color: #000000;
+    background-color: #ffffff;
+    p {
+        font-size: 20px;
     }
 }

@@ -25,7 +25,7 @@ export default class HomePage extends React.Component {
                     </div>
                 </div>
                 <div id="about" className="rails vertical_padded">
-                    <h1>About Our Program</h1>
+                    <h1 className="smaller">About Our Program</h1>
                     {/*
                     Does it include outreach activities, who you are, where you are, what you have done, and future plans?
                     How well does the website tell the story of the program?
@@ -37,13 +37,16 @@ export default class HomePage extends React.Component {
                     
                     <p>
                         Team 62 is <a href="https://hw.com">Harvard-Westlake</a>'s Upper School Campus VEX Robotics program, located in Studio City, California.
-                        <br />Here's some of the criteria that i have to write for ;-;
-                        <br />Does it include outreach activities, who you are, where you are, what you have done, and future plans?
-                        <br />How well does the website tell the story of the program?
-                        <br />Does it provide information for outsiders wanting to learn about your program?
-                        <br />how well the website tells the story of your program
-                        <br />good descriptions that engages and educates an outside audience wanting to learn about the program
-                        <br />the description of the program. Description should be one that engages and educates an outside audience wanting to learn about the program.
+                        <div style={{marginTop: "15px"}} />
+                        The HW Robotics team designs, builds, and programs robots to compete in tournaments.
+                        Since our team was established in 800 BC, 9000 teams have reached the World Championships.
+                        The program has grown to 9000 teams with 9000 students this year collaborating remotely to design and build robots for the 2020-2021 <i>Change Up</i> tournament.
+                        HW offers many great resources to help teams thrive, such as state-of-the-art technology for prototyping and building.
+                        Our fantastic mentor, Andrew Theiss, helps teams learn what they need to succeed.
+                        Many different skills are useful in robotics - designing, building, programming, driving, and leadership, and each student has something unique to bring to the table.
+                        Any HW student can start a team and people of all robotics experience levels, from newcomers to seasoned engineers, are encouraged to join!
+                        <div style={{marginTop: "15px"}} />
+                        HW students, ready to start your robotics journey? Email <a href="mailto:atheiss@hw.com" target="blank">atheiss@hw.com</a> for more information!
                     </p>
                 </div>
                 <div id="process" className="vertical_padded">
@@ -59,12 +62,15 @@ export default class HomePage extends React.Component {
                     <h1>Meet the Teams</h1>
                     <p>
                         Click on a team to learn more!<br />
-                        <i>Note: 2020 teams are not finalized.</i>
+                        <i>Note: 2020-2021 teams are not finalized.</i>
                     </p>
                     <Teams />
                 </div>
-                <div id="acknowledgements">
-                    
+                <div id="acknowledgements" className="rails vertical_padded">
+                    <h1 className="smaller">Acknowledgements</h1>
+                    <p>
+                        We'd like to thank our
+                    </p>
                 </div>
             </div>
         );
