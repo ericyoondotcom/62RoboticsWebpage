@@ -12,21 +12,21 @@ const TEAM_INFO = {
     A: {
         subtitle: "Christopher Ladreyt, Dru Reed, Isaiah Jeter, Jake Futterman, Reggie Kim, Yvette Copeland",
         content: (
-            <p>lolcats</p>
+            <p>👀</p>
         ),
         images: []
     },
     B: {
         subtitle: "Aidan Yap, Benjamin Ham, Ethan Wang, Jaydon Faal, Justin Sun, Mateen Sharifi, Matthew Messaye, Peter Shen",
         content: (
-            <p>lolcats</p>
+            <p>👀</p>
         ),
         images: []
     },
     F: {
         subtitle: "Joshua Cheng, Matthew Ko, Steven Ko",
         content: (
-            <p>lolcats</p>
+            <p>👀</p>
         ),
         images: []
     },
@@ -36,7 +36,7 @@ const TEAM_INFO = {
     K: {
         subtitle: "Lucas Grad, Maya Mathur, Navid Ghodsi, Ryan Tsai, Will Farhat",
         content: (
-            <p>lolcats</p>
+            <p>👀</p>
         ),
         images: [ImgK1, ImgK2]
     },
@@ -44,15 +44,15 @@ const TEAM_INFO = {
         subtitle: "Andrew Eitner, Anika Iyer, Eric Yoon, Karen Wu, Kensuke Shimojo",
         content: (
             <p>
-                62X is team of sophomores and a robot named Turbo! Competing as 462X at HW's middle school campus during Tower Takeover,
-                they qualified for States through Excellence and Design awards. Though the state tournament were cancelled due
-                to the pandemic, 62X is hoping to use what they learned from their first year in VEX.
+                62X is team of sophomores and a robot named Turbo! Competing as 462X at HW's middle school campus for Tower Takeover,
+                they won Excellence and Design awards and qualified for States. Though the state tournament was cancelled due
+                to the pandemic, 62X is hoping to build upon what they learned from their first year in VEX to reach States again.
                 <div style={{marginTop: "15px"}} />
                 Andrew, Karen, and Kensuke are aspiring engineers and the team's builders; Kensuke specializes in using Blender
-                to create CAD models and plans. Anika is the team's strategist— with her extensive Vex IQ and EDR experience,
-                she specializes in creating game plans and creating notebook entries. Eric is the team's programmer and driver.
-                With his 7+ years of programming experience, he is in charge of programming driver control and autonomous. Additionally,
-                with Kensuke's CAD models, Eric developed a Virtual Reality simulator to help him practice driving at home.
+                to create CAD models and plans. Anika is the team's strategist— with her extensive VEX IQ and EDR experience,
+                she specializes in creating game plans and documenting the team's process in the Engineering Notebook. Eric is the team's
+                programmer and driver. With his 7+ years of programming experience, he is in charge of programming driver control and autonomous.
+                Additionally, Eric developed a Virtual Reality simulator utilizing Kensuke's CAD models to help him practice driving at home.
             </p>
         ),
         images: [ImgX1, ImgX2]
@@ -60,7 +60,7 @@ const TEAM_INFO = {
     Z: {
         subtitle: "Everett Tolbert-Schwartz, Henry Burdorf, Louis Hess, Michael Miyajima, Walker McGinley",
         content: (
-            <p>lolcats</p>
+            <p>👀</p>
         ),
         images: []
     }

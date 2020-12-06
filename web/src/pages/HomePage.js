@@ -1,3 +1,4 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import EngineeringDesignTable from "../components/EngineeringDesignTable";
 import ImageSlideshow from "../components/ImageSlideshow";
@@ -71,6 +72,9 @@ export default class HomePage extends React.Component {
                     <p>
                         We'd like to thank our
                     </p>
+                </div>
+                <div id="footer">
+                    <p>Website made with <FontAwesomeIcon icon="heart" /> by Eric Yoon – Team 62X</p>
                 </div>
             </div>
         );
