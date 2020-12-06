@@ -17,6 +17,8 @@ a {
 
 body {
     background-color: $bg-color;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 h1 {
@@ -161,6 +163,7 @@ h1 {
 #process {
     background-color: #ffffff;
     text-align: center;
+    padding-bottom: 10px;
     h1 {
         margin-bottom: 50px;
     }
@@ -170,43 +173,47 @@ h1 {
 }
 
 #engineering_design_table {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 0 5vw;
-    overflow-x: hidden;
-    .item {
-        flex: 1 1 0px;
-        padding: 30px;
-        // border: #777777 solid 1px;
-        border-radius: 10px;
-        box-shadow: 0 0 15px 5px #0000002D;
-        margin: 20px;
-        text-align: center;
+    padding: 50px 0 0 0;
+    width: 100vw;
+    overflow-y: visible;
 
-        h2 {
-            font-weight: bold;
-            font-family: inherit;
-            font-size: 30px;
-            color: #000000;
-        }
-
-        .circle {
-            border-radius: 10em;
-            background-color: $bg-color;
-            width: 60px;
-            height: 60px;
-            position: relative;
-            margin: 0 auto;
-            img {
-                width: 40px;
-                position: absolute;
-                margin: auto;
-                left: 0;
-                right: 0;
-                top: 0;
-                bottom: 0;
+    & > div {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        .item {
+            min-width: 400px;
+            max-width: 400px;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px 5px #0000002D;
+            margin: 20px;
+            text-align: center;
+    
+            h2 {
+                font-weight: bold;
+                font-family: inherit;
+                font-size: 30px;
+                color: #000000;
+            }
+    
+            .circle {
+                border-radius: 10em;
+                background-color: $bg-color;
+                width: 60px;
+                height: 60px;
+                position: relative;
+                margin: 0 auto;
+                img {
+                    width: 40px;
+                    position: absolute;
+                    margin: auto;
+                    left: 0;
+                    right: 0;
+                    top: 0;
+                    bottom: 0;
+                }
             }
         }
     }

@@ -73,12 +73,12 @@ const slideProperties = {
     infinite: true,
     prevArrow: (
         <div className="slide_arrow left">
-            <FontAwesomeIcon icon="arrow-circle-left" />
+            <FontAwesomeIcon icon="chevron-left" />
         </div>
     ),
     nextArrow: (
         <div className="slide_arrow right">
-            <FontAwesomeIcon icon="arrow-circle-right" />
+            <FontAwesomeIcon icon="chevron-right" />
         </div>
     )
 };

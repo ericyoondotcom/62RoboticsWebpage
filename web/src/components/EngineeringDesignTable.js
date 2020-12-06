@@ -23,7 +23,6 @@ const ITEMS = [
         title: "Plan",
         description: "Once teams have their preliminary designs, we start designing our robots. Using amazing tools and software at our disposal such as Fusion 360 for modelling and 3D printers for prototyping, along with weekly CAD tutorials from our mentor, we prototype our builds."
     },
-    "break",
     {
         image: Build,
         title: "Build",
@@ -46,29 +45,59 @@ const ITEMS = [
     }
 ]
 
+const ANIMATION_STEP = 20;
+
+// Speed in pixels / sec
+const ANIMATION_SPEED = 50;
+const ITEM_WIDTH = 400 + ((20 + 30) * 2);
+
 class EngineeringDesignTable extends React.Component {
-    
+    constructor(props){
+        super(props);
+        this.state = {
+            scroll: 0
+        }
+
+        setInterval(
+            () => {
+                if(this.hovering === true) return;
+                let newScroll = this.state.scroll - (ANIMATION_SPEED * (ANIMATION_STEP / 1000));
+                if(newScroll < -1 * ITEMS.length * ITEM_WIDTH) newScroll = 0;
+                this.setState({
+                    scroll: newScroll
+                });
+            }, ANIMATION_STEP
+        )
+    }
+
     render(){
+        const tiles = ITEMS.map(i => {
+            if(i === "break") {
+                return (
+                    <div class="break" />
+                );
+            }
+            return (
+                <div class="item">
+                    <div class="circle">
+                        <img src={i.image} alt="" />
+                    </div>
+                    <h2>{i.title}</h2>
+                    <p>{i.description}</p>
+                </div>
+            );
+        });
+
         return (
-            <div id="engineering_design_table">
-                {
-                    ITEMS.map(i => {
-                        if(i === "break") {
-                            return (
-                                <div class="break" />
-                            );
-                        }
-                        return (
-                            <div class="item">
-                                <div class="circle">
-                                    <img src={i.image} alt="Question icon" />
-                                </div>
-                                <h2>{i.title}</h2>
-                                <p>{i.description}</p>
-                            </div>
-                        );
-                    })
-                }
+            <div id="engineering_design_table" onMouseEnter={() => {
+                this.hovering = true;
+            }} onMouseLeave={() => {
+                this.hovering = false;
+            }}>
+                <div style={{marginLeft: this.state.scroll}}>
+                    {tiles}
+                    {tiles}
+                </div>
             </div>
         );
     }
