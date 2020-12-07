@@ -37,15 +37,17 @@ export default class HomePage extends React.Component {
                     */}
                     
                     <p>
-                        Team 62 is <a href="https://hw.com">Harvard-Westlake</a>'s Upper School Campus VEX Robotics program, located in Studio City, California.
+                        Team 62 is <a href="https://hw.com">Harvard-Westlake</a> Upper School's VEX Robotics program, located in Studio City, California.
                         <div style={{marginTop: "15px"}} />
-                        The HW Robotics team designs, builds, and programs robots to compete in tournaments.
-                        Since our team was established in 800 BC, 9000 teams have reached the World Championships.
-                        The program has grown to 9000 teams with 9000 students this year collaborating remotely to design and build robots for the 2020-2021 <i>Change Up</i> tournament.
+                        The HW Robotics team designs, builds, and programs robots to compete in local and regional VEX tournaments.
+                        We have been competing in VRC since 2015, and our teams have competed in the world championships.
+                        This year, six teams are collaborating remotely to design and build robots for the 2020-2021 <i>Change Up</i> competition,
+                        and even more teams are learning to design and build robots that are competition-ready.
+                        <div style={{marginTop: "15px"}} />
                         HW offers many great resources to help teams thrive, such as state-of-the-art technology for prototyping and building.
                         Our fantastic mentor, Andrew Theiss, helps teams learn what they need to succeed.
-                        Many different skills are useful in robotics - designing, building, programming, driving, and leadership, and each student has something unique to bring to the table.
-                        Any HW student can start a team and people of all robotics experience levels, from newcomers to seasoned engineers, are encouraged to join!
+                        Many different skills are useful in robotics - designing, building, programming, driving, and leadership, and each student has something unique to bring to the program.
+                        Any HW student can start a team and people of all robotics experience levels, from curious newcomers to seasoned engineers, are encouraged to join!
                         <div style={{marginTop: "15px"}} />
                         HW students, ready to start your robotics journey? Email <a href="mailto:atheiss@hw.com" target="blank">atheiss@hw.com</a> for more information!
                     </p>

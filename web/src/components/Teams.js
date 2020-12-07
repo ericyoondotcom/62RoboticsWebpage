@@ -3,64 +3,81 @@ import TeamIcon from "./TeamIcon";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {Slide} from "react-slideshow-image";
 
+import ImgA1 from "../resources/team-pics/a-1.jpg";
+import ImgA2 from "../resources/team-pics/a-2.jpg";
+import ImgA3 from "../resources/team-pics/a-3.jpg";
+import ImgBKV1 from "../resources/team-pics/bkv-1.jpg";
 import ImgK1 from "../resources/team-pics/k-1.jpg";
 import ImgK2 from "../resources/team-pics/k-2.jpg";
 import ImgX1 from "../resources/team-pics/x-1.png";
 import ImgX2 from "../resources/team-pics/x-2.jpg";
+import ImgX3 from "../resources/team-pics/x-3.png";
 
 const TEAM_INFO = {
     A: {
         subtitle: "Christopher Ladreyt, Dru Reed, Isaiah Jeter, Jake Futterman, Reggie Kim, Yvette Copeland",
         content: (
-            <p>👀</p>
+            <p>
+                62A is one of our most experienced teams. Their achievements include VEX Worlds Science Division
+                Quarter Finalist in 2019, World Skills Champion during 2014-2015, CREATE US Open Blue Division
+                Quarter Finalist in 2019, and The Wave at WPI Signature Event Round of 16 in 2020, as well as
+                CA State Champions in 2019.
+            </p>
         ),
-        images: []
+        images: [ImgA1, ImgA2, ImgA3]
     },
     B: {
         subtitle: "Aidan Yap, Benjamin Ham, Ethan Wang, Jaydon Faal, Justin Sun, Mateen Sharifi, Matthew Messaye, Peter Shen",
         content: (
-            <p>👀</p>
+            <p>
+                62B is an experienced team who qualified for the VEX World Championship during the 2019-2020 season,
+                though it was canceled due to the pandemic. This year, they are joined by four new sophomore and junior members.
+            </p>
         ),
-        images: []
+        images: [ImgBKV1]
     },
-    F: {
-        subtitle: "Joshua Cheng, Matthew Ko, Steven Ko",
+    G: {
+        subtitle: "Page Clancy",
         content: (
-            <p>👀</p>
+            <p>
+                Page competed in Tower Takeover during the 2019-2020 season and is returning to compete in this year's Change Up tournament!
+            </p>
         ),
         images: []
     },
-    // G: {
-            // Page???
-    // },
     K: {
         subtitle: "Lucas Grad, Maya Mathur, Navid Ghodsi, Ryan Tsai, Will Farhat",
         content: (
-            <p>👀</p>
+            <p>
+                62K is a team of juniors and seniors. The team qualified for the California State Championships and won two Judges Awards during the 2019-2020 season.
+            </p>
         ),
-        images: [ImgK1, ImgK2]
+        images: [ImgK1, ImgK2, ImgBKV1]
     },
     X: {
         subtitle: "Andrew Eitner, Anika Iyer, Eric Yoon, Karen Wu, Kensuke Shimojo",
         content: (
             <p>
-                62X is team of sophomores and a robot named Turbo! Competing as 462X at HW's middle school campus for Tower Takeover,
-                they won Excellence and Design awards and qualified for States. Though the state tournament was cancelled due
+                62X is a team of sophomores and a robot named Turbo! Competing as 462X at HW's middle school campus for the 2019-2020 Tower Takeover season,
+                they won Excellence and Design awards and qualified for States. Though the state tournament was canceled due
                 to the pandemic, 62X is hoping to build upon what they learned from their first year in VEX to reach States again.
                 <div style={{marginTop: "15px"}} />
                 Andrew, Karen, and Kensuke are aspiring engineers and the team's builders; Kensuke specializes in using Blender
                 to create CAD models and plans. Anika is the team's strategist— with her extensive VEX IQ and EDR experience,
                 she specializes in creating game plans and documenting the team's process in the Engineering Notebook. Eric is the team's
-                programmer and driver. With his 7+ years of programming experience, he is in charge of programming driver control and autonomous.
+                programmer and driver. With his 6+ years of programming experience, he is in charge of programming driver control and autonomous.
                 Additionally, Eric developed a Virtual Reality simulator utilizing Kensuke's CAD models to help him practice driving at home.
             </p>
         ),
-        images: [ImgX1, ImgX2]
+        images: [ImgX2, ImgX3, ImgX1]
     },
     Z: {
         subtitle: "Everett Tolbert-Schwartz, Henry Burdorf, Louis Hess, Michael Miyajima, Walker McGinley",
         content: (
-            <p>👀</p>
+            <p>
+                62Z is a team of juniors who have built up experience from competing in the 2019-2020 Tower Takeover season.
+                They are returning for the 2020-2021 Change Up season and are excited to compete!
+            </p>
         ),
         images: []
     }

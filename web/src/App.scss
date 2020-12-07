@@ -317,12 +317,13 @@ h1 {
         margin: 0 10px;
     }
     h2 {
-        font-weight: normal;
+        color: #FFFFFF;
+        font-weight: bold;
         font-size: 30px;
         margin: none;
     }
     p {
-        color: #000000;
+        color: $text-color;
         font-size: 20px;
         text-align: justify;
     }
