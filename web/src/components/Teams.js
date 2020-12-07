@@ -4,7 +4,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {Slide} from "react-slideshow-image";
 
 import ImgA1 from "../resources/team-pics/a-1.jpg";
-import ImgA2 from "../resources/team-pics/a-2.jpg";
+import ImgA2 from "../resources/team-pics/a-2.png";
 import ImgA3 from "../resources/team-pics/a-3.jpg";
 import ImgBKV1 from "../resources/team-pics/bkv-1.jpg";
 import ImgK1 from "../resources/team-pics/k-1.jpg";
@@ -12,16 +12,20 @@ import ImgK2 from "../resources/team-pics/k-2.jpg";
 import ImgX1 from "../resources/team-pics/x-1.png";
 import ImgX2 from "../resources/team-pics/x-2.jpg";
 import ImgX3 from "../resources/team-pics/x-3.png";
+import ImgX4 from "../resources/team-pics/x-4.jpg";
+import ImgX5 from "../resources/team-pics/x-5.jpg";
+import ImgX6 from "../resources/team-pics/x-6.jpg";
+
 
 const TEAM_INFO = {
     A: {
         subtitle: "Christopher Ladreyt, Dru Reed, Isaiah Jeter, Jake Futterman, Reggie Kim, Yvette Copeland",
         content: (
             <p>
-                62A is one of our most experienced teams. Their achievements include VEX Worlds Science Division
-                Quarter Finalist in 2019, World Skills Champion during 2014-2015, CREATE US Open Blue Division
-                Quarter Finalist in 2019, and The Wave at WPI Signature Event Round of 16 in 2020, as well as
-                CA State Champions in 2019.
+                62A is one of our most experienced teams. They were undefeated CA State Champions in 2019.
+                Their other achievements include VEX Worlds Science Division Quarter Finalist in 2019,
+                CREATE US Open Blue Division Quarter Finalist in 2019, and The Wave at WPI Signature Event Round of 16 in 2020.
+                Their newest member, Dru, was the 2019 World Skills Champion with his former middle school team, 3324V.
             </p>
         ),
         images: [ImgA1, ImgA2, ImgA3]
@@ -69,7 +73,7 @@ const TEAM_INFO = {
                 Additionally, Eric developed a Virtual Reality simulator utilizing Kensuke's CAD models to help him practice driving at home.
             </p>
         ),
-        images: [ImgX2, ImgX3, ImgX1]
+        images: [ImgX2, ImgX3, ImgX1, ImgX4, ImgX5, ImgX6]
     },
     Z: {
         subtitle: "Everett Tolbert-Schwartz, Henry Burdorf, Louis Hess, Michael Miyajima, Walker McGinley",

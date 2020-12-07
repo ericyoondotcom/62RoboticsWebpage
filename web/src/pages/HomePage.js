@@ -6,11 +6,10 @@ import Navbar from "../components/Navbar";
 import Teams from "../components/Teams";
 import LogoDropShadow from "../resources/62-shadow.png";
 import EngineeringDesignAnim from "../resources/engineering-design-animation.gif";
+import ChangeUpFieldImg from "../resources/changeupfield.png";
+import News from "../components/News";
 
 export default class HomePage extends React.Component {
-    constructor(props){
-        super(props);
-    }
 
     render(){
         return (
@@ -37,7 +36,7 @@ export default class HomePage extends React.Component {
                     */}
                     
                     <p>
-                        Team 62 is <a href="https://hw.com">Harvard-Westlake</a> Upper School's VEX Robotics program, located in Studio City, California.
+                        Team 62 is <a href="https://hw.com" target="_blank" rel="noreferrer" style={{textDecoration: "underline"}}>Harvard-Westlake</a> Upper School's VEX Robotics program, located in Studio City, California.
                         <div style={{marginTop: "15px"}} />
                         The HW Robotics team designs, builds, and programs robots to compete in local and regional VEX tournaments.
                         We have been competing in VRC since 2015, and our teams have competed in the world championships.
@@ -52,6 +51,16 @@ export default class HomePage extends React.Component {
                         HW students, ready to start your robotics journey? Email <a href="mailto:atheiss@hw.com" target="blank">atheiss@hw.com</a> for more information!
                     </p>
                 </div>
+                <a href="https://www.vexrobotics.com/v5/competition/vrc-current-game" target="_blank" rel="noreferrer">
+                    <div id="game_link">
+                        <div id="bg" style={{
+                            backgroundImage: `url(${ChangeUpFieldImg})`
+                        }} />
+                        <p>
+                            About the Change Up Game <FontAwesomeIcon icon="chevron-right" />
+                        </p>
+                    </div>
+                </a>
                 <div id="process" className="vertical_padded">
                     <div className="rails">
                         <h1>Our Design Process</h1>
@@ -72,8 +81,18 @@ export default class HomePage extends React.Component {
                 <div id="acknowledgements" className="rails vertical_padded">
                     <h1 className="smaller">Acknowledgements</h1>
                     <p>
-                        We'd like to thank our
+                        We'd like to thank our Upper School coach and mentor, Andrew Theiss, for his continued support and guidance, and
+                        Tripp Reed, HW Middle School's robotics coach, for introducing many of our teams to VEX.
+                        Thank you to all of the Harvard-Westlake faculty and administrators for supporting
+                        the robotics program, especially Rick Commons, Laura Ross, Beth Slattery, and Jon Wimbish.
+                        <div style={{marginTop: "15px"}} />
+                        Finally, thank you to VEX Robotics and the REC Foundation for hosting the competition and
+                        promoting robotics education around the world!
                     </p>
+                </div>
+                <div id="news" className="rails vertical_padded">
+                    <h1 className="smaller">In the News</h1>
+                    <News />
                 </div>
                 <div id="footer">
                     <p>Website made with <FontAwesomeIcon icon="heart" /> by Eric Yoon – Team 62X</p>
