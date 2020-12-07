@@ -15,7 +15,7 @@ import ImgX3 from "../resources/team-pics/x-3.png";
 import ImgX4 from "../resources/team-pics/x-4.jpg";
 import ImgX5 from "../resources/team-pics/x-5.jpg";
 import ImgX6 from "../resources/team-pics/x-6.jpg";
-
+import XPanShotVideo from "../resources/x-pan-shot.mp4";
 
 const TEAM_INFO = {
     A: {
@@ -71,6 +71,7 @@ const TEAM_INFO = {
                 she specializes in creating game plans and documenting the team's process in the Engineering Notebook. Eric is the team's
                 programmer and driver. With his 6+ years of programming experience, he is in charge of programming driver control and autonomous.
                 Additionally, Eric developed a Virtual Reality simulator utilizing Kensuke's CAD models to help him practice driving at home.
+                <video autoPlay muted loop src={XPanShotVideo} id="x_cad_video" />
             </p>
         ),
         images: [ImgX2, ImgX3, ImgX1, ImgX4, ImgX5, ImgX6]
