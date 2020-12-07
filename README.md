@@ -1,6 +1,12 @@
 # 62RoboticsWebpage
 Webpage for Harvard-Westlake Upper School robotics, Team 62
 
+https://hw-robotics.web.app
+
+Made by Eric Yoon - Team 62X
+
+Made with HTML, SCSS, JS, ReactJS
+
 ## Running
 To run the webpage in development mode, get started by
 ```bash
