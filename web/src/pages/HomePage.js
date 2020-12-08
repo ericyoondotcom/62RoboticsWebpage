@@ -41,7 +41,7 @@ export default class HomePage extends React.Component {
                         The HW Robotics team designs, builds, and programs robots to compete in local and regional VEX tournaments.
                         We have been competing in VRC since 2015, and our teams have competed in the world championships.
                         This year, six teams are collaborating remotely to design and build robots for the 2020-2021 <i>Change Up</i> competition,
-                        and even more teams are learning to design and build robots that are competition-ready.
+                        and even more teams are learning to engineer robots that are competition-ready.
                         <div style={{marginTop: "15px"}} />
                         HW offers many great resources to help teams thrive, such as state-of-the-art technology for prototyping and building.
                         Our fantastic mentor, Andrew Theiss, helps teams learn what they need to succeed.

@@ -22,7 +22,8 @@ const TEAM_INFO = {
         subtitle: "Christopher Ladreyt, Dru Reed, Isaiah Jeter, Jake Futterman, Reggie Kim, Yvette Copeland",
         content: (
             <p>
-                62A is one of our most experienced teams. They were undefeated CA State Champions in 2019.
+                62A is one of our most accomplished and experienced teams. They qualified for States in 2019-2020 and they competed
+                in VEX Worlds in 2018-2019. They were undefeated CA State Champions in 2019.
                 Their other achievements include VEX Worlds Science Division Quarter Finalist in 2019,
                 CREATE US Open Blue Division Quarter Finalist in 2019, and The Wave at WPI Signature Event Round of 16 in 2020.
                 Their newest member, Dru, was the 2019 World Skills Champion with his former middle school team, 3324V.
@@ -34,7 +35,7 @@ const TEAM_INFO = {
         subtitle: "Aidan Yap, Benjamin Ham, Ethan Wang, Jaydon Faal, Justin Sun, Mateen Sharifi, Matthew Messaye, Peter Shen",
         content: (
             <p>
-                62B is an experienced team who qualified for the VEX World Championship during the 2019-2020 season,
+                62B is a skilled team who qualified for the VEX World Championship during the 2019-2020 season,
                 though it was canceled due to the pandemic. This year, they are joined by four new sophomore and junior members.
             </p>
         ),
@@ -63,7 +64,7 @@ const TEAM_INFO = {
         content: (
             <p>
                 62X is a team of sophomores and a robot named Turbo! Competing as 462X at HW's middle school campus for the 2019-2020 Tower Takeover season,
-                they won Excellence and Design awards and qualified for States. Though the state tournament was canceled due
+                they won Excellence and Design awards and qualified for States. Though the State Championship was canceled due
                 to the pandemic, 62X is hoping to build upon what they learned from their first year in VEX to reach States again.
                 <div style={{marginTop: "15px"}} />
                 Andrew, Karen, and Kensuke are aspiring engineers and the team's builders; Kensuke specializes in using Blender

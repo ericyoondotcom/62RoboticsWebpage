@@ -31,6 +31,26 @@ const LINKS = [
         text: "Robotics subteam 62X qualifies for state tournament",
         subtitle: "October 2019",
         url: "http://hwchronicle.com/robotics-subteam-62x-qualifies-for-state-tournament/"
+    },
+    {
+        text: "Robotics teams compete at World Championships",
+        subtitle: "May 2019",
+        url: "http://hwchronicle.com/robotics-teams-compete-at-world-championships/"
+    },
+    {
+        text: "Robotics subteams place in tournament",
+        subtitle: "February 2019",
+        url: "http://hwchronicle.com/robotics-subteams-place-in-tournament/"
+    },
+    {
+        text: "Robotics subteams win awards in skills and buildings",
+        subtitle: "November 2018",
+        url: "http://hwchronicle.com/robotics-subteams-win-awards-in-skills-and-buildings/"
+    },
+    {
+        text: "Sophomore teaches robotics in Ethiopian middle school",
+        subtitle: "August 2018",
+        url: "http://hwchronicle.com/sophomore-teaches-robotics-in-ethiopian-middle-school/"
     }
 ];
 
