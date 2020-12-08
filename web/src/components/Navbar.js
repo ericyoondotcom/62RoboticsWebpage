@@ -13,7 +13,7 @@ class Navbar extends React.Component {
     }
 
     render(){
-        const {active} = this.props;
+        const active = window.location.hash.substr(1);
 
         return (
             <div id="navbar">
@@ -47,17 +47,17 @@ class Navbar extends React.Component {
                     </div>
                 </Link>
                 <Link to="#teams">
-                    <div className={`item ${active == "process" ? "active" : ""}`}>
+                    <div className={`item ${active == "teams" || active == "team_info" ? "active" : ""}`}>
                         <p>Meet the Teams</p>
                     </div>
                 </Link>
                 <Link to="#acknowledgements">
-                    <div className={`item ${active == "process" ? "active" : ""}`}>
+                    <div className={`item ${active == "acknowledgements" ? "active" : ""}`}>
                         <p>Acknowledgements</p>
                     </div>
                 </Link>
                 <Link to="#news">
-                    <div className={`item ${active == "process" ? "active" : ""}`}>
+                    <div className={`item ${active == "news" ? "active" : ""}`}>
                         <p>News</p>
                     </div>
                 </Link>
@@ -65,8 +65,4 @@ class Navbar extends React.Component {
         );
     }
 }
-
-Navbar.propTypes = {
-    active: PropTypes.string
-};
 export default Navbar;

@@ -3,18 +3,20 @@ import React from "react";
 import EngineeringDesignTable from "../components/EngineeringDesignTable";
 import ImageSlideshow from "../components/ImageSlideshow";
 import Navbar from "../components/Navbar";
+import News from "../components/News";
 import Teams from "../components/Teams";
 import LogoDropShadow from "../resources/62-shadow.png";
 import EngineeringDesignAnim from "../resources/engineering-design-animation.gif";
 import ChangeUpFieldImg from "../resources/changeupfield.png";
-import News from "../components/News";
+import LogoRECF from "../resources/recf.png";
+import LogoVRC from "../resources/vrc.png";
 
 export default class HomePage extends React.Component {
 
     render(){
         return (
             <div id="main_content">
-                <Navbar active={"home"} />
+                <Navbar />
                 <div id="title_card">
                     <ImageSlideshow />
                     <div id="center_content">
@@ -89,6 +91,14 @@ export default class HomePage extends React.Component {
                         Finally, thank you to VEX Robotics and the REC Foundation for hosting the competition and
                         promoting robotics education around the world!
                     </p>
+                    <div id="logos">
+                        <a href="https://www.roboticseducation.org/vex-robotics-competition/" target="_blank" rel="noreferrer">
+                            <img src={LogoVRC} alt="VEX Robotics Competition logo" />
+                        </a>
+                        <a href="https://www.roboticseducation.org/" target="_blank" rel="noreferrer">
+                            <img src={LogoRECF} alt="REC Foundation logo" />
+                        </a>
+                    </div>
                 </div>
                 <div id="news" className="rails vertical_padded">
                     <h1 className="smaller">In the News</h1>

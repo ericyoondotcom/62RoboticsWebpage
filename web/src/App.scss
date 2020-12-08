@@ -50,6 +50,7 @@ h1 {
 #main_content {
     font-family: "Sen", sans-serif;
     background-color: $bg-color;
+    padding-top: 7vh; // space for navbar
 }
 
 #navbar {
@@ -59,7 +60,13 @@ h1 {
     display: flex;
     flex-direction: row;
     align-items: center;
-
+    position: fixed;
+    z-index: 10;
+    overflow-x: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 15px 5px #00000033;
     .item {
         display: flex;
         align-items: center;
@@ -425,6 +432,19 @@ h1 {
         font-size: 18px;
         text-align: justify;
     }
+    #logos {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 75px;
+        img {
+            display: inline;
+            max-width: 200px;
+            // filter: contrast(0) brightness(0%) saturate(0%);
+        }
+    }
 }
 
 #footer {
@@ -493,3 +513,4 @@ h1 {
     margin: 25px 0px;
     border-radius: 7px;
 }
+
