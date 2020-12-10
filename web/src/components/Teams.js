@@ -35,7 +35,7 @@ const TEAM_INFO = {
         subtitle: "Aidan Yap, Benjamin Ham, Ethan Wang, Jaydon Faal, Justin Sun, Mateen Sharifi, Matthew Messaye, Peter Shen",
         content: (
             <p>
-                62B is a skilled team who qualified for the VEX World Championship during the 2019-2020 season,
+                62B is a highly skilled team who qualified for the VEX World Championship during the 2019-2020 season,
                 though it was canceled due to the pandemic. This year, they are joined by four new sophomore and junior members.
             </p>
         ),

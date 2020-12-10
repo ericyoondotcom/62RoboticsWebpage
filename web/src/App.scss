@@ -63,6 +63,7 @@ h1 {
     position: fixed;
     z-index: 10;
     overflow-x: auto;
+    overflow-y: hidden;
     top: 0;
     left: 0;
     right: 0;
@@ -381,7 +382,7 @@ h1 {
 
     #close_button {
         position: absolute;
-        top: 15px;
+        top: 8vh;
         right: 15px;
         font-size: 50px;
         cursor: pointer;
