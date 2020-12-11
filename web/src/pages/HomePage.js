@@ -16,6 +16,7 @@ export default class HomePage extends React.Component {
     render(){
         return (
             <div id="main_content">
+                <div id="home" />
                 <Navbar />
                 <div id="title_card">
                     <ImageSlideshow />

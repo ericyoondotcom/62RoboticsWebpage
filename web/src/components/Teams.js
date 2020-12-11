@@ -7,6 +7,7 @@ import ImgA1 from "../resources/team-pics/a-1.jpg";
 import ImgA2 from "../resources/team-pics/a-2.png";
 import ImgA3 from "../resources/team-pics/a-3.jpg";
 import ImgBKV1 from "../resources/team-pics/bkv-1.jpg";
+import ImgG1 from "../resources/team-pics/g-1.jpg";
 import ImgK1 from "../resources/team-pics/k-1.jpg";
 import ImgK2 from "../resources/team-pics/k-2.jpg";
 import ImgX1 from "../resources/team-pics/x-1.png";
@@ -48,7 +49,7 @@ const TEAM_INFO = {
                 Page competed in Tower Takeover during the 2019-2020 season and is returning to compete in this year's Change Up tournament!
             </p>
         ),
-        images: []
+        images: [ImgG1]
     },
     K: {
         subtitle: "Lucas Grad, Maya Mathur, Navid Ghodsi, Ryan Tsai, Will Farhat",
