@@ -3,9 +3,19 @@ import React from "react";
 
 const LINKS = [
     {
-        text: "12/12 HWMS Online Skills Tournament",
-        url: "https://www.robotevents.com/robot-competitions/vex-robotics-competition/RE-VRC-20-2791.html",
+        text: "1/23 HW Live Remote Tournament",
+        url: "https://www.robotevents.com/robot-competitions/vex-robotics-competition/RE-VRC-20-3075.html",
         highlighted: true
+    },
+    {
+        text: "Team 62 Declared Finalist in VRC Team Website Challenge",
+        subtitle: "January 2021",
+        url: "https://challenges.robotevents.com/challenge/118/entry?filter=finalists"
+    },
+    {
+        text: "12/12 HWMS Online Skills Tournament",
+        subtitle: "December 2020",
+        url: "https://www.robotevents.com/robot-competitions/vex-robotics-competition/RE-VRC-20-2791.html"
     },
     {
         text: "Robotics championships canceled due to pandemic",
