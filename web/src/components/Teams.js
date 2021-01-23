@@ -16,6 +16,7 @@ import ImgX3 from "../resources/team-pics/x-3.png";
 import ImgX4 from "../resources/team-pics/x-4.png";
 import ImgX5 from "../resources/team-pics/x-5.jpg";
 import ImgX6 from "../resources/team-pics/x-6.jpg";
+import ImgX7 from "../resources/team-pics/x-7.jpg";
 import XPanShotVideo from "../resources/x-pan-shot.mp4";
 
 const TEAM_INFO = {
@@ -76,7 +77,7 @@ const TEAM_INFO = {
                 <video autoPlay muted loop src={XPanShotVideo} id="x_cad_video" />
             </p>
         ),
-        images: [ImgX2, ImgX3, ImgX1, ImgX4, ImgX5, ImgX6]
+        images: [ImgX2, ImgX3, ImgX1, ImgX4, ImgX7, ImgX5, ImgX6]
     },
     Z: {
         subtitle: "Everett Tolbert-Schwartz, Henry Burdorf, Louis Hess, Michael Miyajima, Walker McGinley",
