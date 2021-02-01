@@ -75,6 +75,9 @@ const TEAM_INFO = {
                 programmer and driver. With his 6+ years of programming experience, he is in charge of programming driver control and autonomous.
                 Additionally, Eric developed a Virtual Reality simulator utilizing Kensuke's CAD models to help him practice driving at home.
                 <video autoPlay muted loop src={XPanShotVideo} id="x_cad_video" />
+                <div style={{textAlign: "center"}}>
+                    <iframe title="VR Driving Simulation" width="560" height="315" src="https://www.youtube.com/embed/2cj0XrF8UlY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
             </p>
         ),
         images: [ImgX2, ImgX3, ImgX1, ImgX4, ImgX7, ImgX5, ImgX6]
