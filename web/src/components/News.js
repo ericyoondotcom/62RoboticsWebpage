@@ -5,7 +5,12 @@ const LINKS = [
     {
         text: "2/21 HW Remote Skills Challenge",
         url: "https://www.robotevents.com/robot-competitions/vex-robotics-competition/RE-VRC-21-3544.html",
-        highlighted: true
+        highlighted: false
+    },
+    {
+        text: "62X Declared Finalist in VEX Unite Online Challenge",
+        subtitle: "February 2021",
+        url: "https://challenges.robotevents.com/challenge/132/entry?filter=finalists"
     },
     {
         text: "1/23 HW Live Remote Tournament",
