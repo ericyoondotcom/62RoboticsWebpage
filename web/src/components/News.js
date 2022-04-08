@@ -3,9 +3,31 @@ import React from "react";
 
 const LINKS = [
     {
-        text: "2/21 HW Remote Skills Challenge",
+        text: "Robotics Qualifies for Championship",
+        subtitle: "January 2022",
+        url: "https://hwchronicle.com/103664/news/robotics-qualifies-for-championship/"
+    },
+    {
+        text: "62A Wins HW Challenge",
+        subtitle: "February 2022",
+        url: "https://hwchronicle.com/104293/news/teams-find-success-at-schools-first-home-robotics-tournament/"
+    },
+    {
+        text: "Harvard-Westlake Challenge – In-Person Event",
+        subtitle: "February 2022",
+        url: "https://www.robotevents.com/robot-competitions/vex-robotics-competition/RE-VRC-21-5387.html",
+        highlighted: true
+    },
+    {
+        text: "62B Wins World Championship",
+        subtitle: "June 2021",
+        url: "https://hwchronicle.com/101847/news/robotics-team-62b-wins-vex-robotics-world-championship/"
+    },
+    {
+        text: "HW Remote Skills Challenge",
+        subtitle: "February 2021",
         url: "https://www.robotevents.com/robot-competitions/vex-robotics-competition/RE-VRC-21-3544.html",
-        highlighted: false
+        highlighted: true
     },
     {
         text: "62X Declared Finalist in VEX Unite Online Challenge",

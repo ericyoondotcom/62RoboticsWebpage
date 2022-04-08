@@ -2,9 +2,10 @@ import React from "react";
 import Slideshow0 from "../resources/slideshow/slideshow_0.jpg";
 import Slideshow1 from "../resources/slideshow/slideshow_1.jpg";
 import Slideshow2 from "../resources/slideshow/slideshow_2.jpg";
+import Slideshow3 from "../resources/slideshow/slideshow_3.jpg";
 
 const SLIDESHOW_IMAGES = [
-    Slideshow0, Slideshow1, Slideshow2
+    Slideshow0, Slideshow1, Slideshow2, Slideshow3
 ];
 
 const SLIDESHOW_SPEED = 5000;

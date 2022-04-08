@@ -7,7 +7,7 @@ import News from "../components/News";
 import Teams from "../components/Teams";
 import LogoDropShadow from "../resources/62-shadow.png";
 import EngineeringDesignAnim from "../resources/engineering-design-animation.gif";
-import ChangeUpFieldImg from "../resources/changeupfield.png";
+import GameImg from "../resources/game.png";
 import LogoRECF from "../resources/recf.png";
 import LogoVRC from "../resources/vrc.png";
 
@@ -42,8 +42,8 @@ export default class HomePage extends React.Component {
                         Team 62 is <a href="https://hw.com" target="_blank" rel="noreferrer" style={{textDecoration: "underline"}}>Harvard-Westlake</a> Upper School's VEX Robotics program, located in Studio City, California.
                         <div style={{marginTop: "15px"}} />
                         The HW Robotics team designs, builds, and programs robots to compete in local and regional VEX tournaments.
-                        We have been competing in VRC since 2015, and our teams have competed in the world championships.
-                        This year, six teams are collaborating remotely to design and build robots for the 2020-2021 <i>Change Up</i> competition,
+                        We have been competing in VRC since 2015, and our teams have competed in the world championships. Harvard-Westlake is home to the reigning world champions, team 62B.
+                        This year, six teams are collaborating to design and build robots for the 2021-2022 <i>Tipping Point</i> competition,
                         and even more teams are learning to engineer robots that are competition-ready.
                         <div style={{marginTop: "15px"}} />
                         HW offers many great resources to help teams thrive, such as state-of-the-art technology for prototyping and building.
@@ -57,10 +57,10 @@ export default class HomePage extends React.Component {
                 <a href="https://www.vexrobotics.com/v5/competition/vrc-current-game" target="_blank" rel="noreferrer">
                     <div id="game_link">
                         <div id="bg" style={{
-                            backgroundImage: `url(${ChangeUpFieldImg})`
+                            backgroundImage: `url(${GameImg})`
                         }} />
                         <p>
-                            About the Change Up Game <FontAwesomeIcon icon="chevron-right" />
+                            About the Tipping Point Game <FontAwesomeIcon icon="chevron-right" />
                         </p>
                     </div>
                 </a>
@@ -76,8 +76,7 @@ export default class HomePage extends React.Component {
                 <div id="teams" className="vertical_padded">
                     <h1>Meet the Teams</h1>
                     <p>
-                        Click on a team to learn more!<br />
-                        <i>Note: 2020-2021 teams are not finalized.</i>
+                        Click on a team to learn more!
                     </p>
                     <Teams />
                 </div>
