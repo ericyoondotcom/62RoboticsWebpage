@@ -3,6 +3,16 @@ import React from "react";
 
 const LINKS = [
     {
+        text: "3 HW Teams Compete in 2022 VEX Worlds",
+        subtitle: "May 2022",
+        url: "https://www.robotevents.com/robot-competitions/vex-robotics-competition/RE-VRC-21-5258.html"
+    },
+    {
+        text: "Team 62A Wins SoCal State Championships",
+        subtitle: "March 2022",
+        url: "https://www.instagram.com/p/Ca279bRPCR_/"
+    },
+    {
         text: "Robotics Qualifies for Championship",
         subtitle: "January 2022",
         url: "https://hwchronicle.com/103664/news/robotics-qualifies-for-championship/"

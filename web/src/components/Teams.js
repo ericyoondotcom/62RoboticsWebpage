@@ -14,18 +14,18 @@ const TEAM_INFO = {
         content: (
             <p>
                 62A is one of our most accomplished and experienced teams. They are the SoCal Los Angeles state champions,
-                and have won numerous awards, including the excellence award at 2019 SoCal states. 62A will be cometing in
-                VEX Worlds this year.
+                and have won numerous awards, including the excellence award at 2019 SoCal states. 62A were subdivision
+                quarterfinalists in the Tipping Point world championships.
             </p>
         ),
         images: []
     },
     B: {
-        subtitle: "Aidan Yap, Ethan Wang, Justin Sun, Peter Shen",
+        subtitle: "Aidan Yap, Allison Nguyen, Donya Ghassemieh, Ethan Wang, Jaydon Faal, Justin Sun, Matthew Messaye, Matthew Nguyen, Peter Shen",
         content: (
             <p>
-                62B is a reigning world championship team, having won VEX Worlds in the 2020-2021 Change Up season.
-                They are returning to worlds this year.
+                62B is a highly experienced team as the the winner of the Change Up world championships.
+                62B returned to VEX Worlds during the Tipping Point season.
             </p>
         ),
         images: []
@@ -44,7 +44,8 @@ const TEAM_INFO = {
         content: (
             <p>
                 62X is a team of juniors who have been competing since 2019-2020. During the 2020-2021 season, they reached subdivision
-                semifinalists in VEX Worlds, and they will be returning to VEX Worlds this year after qualifying through skills.
+                semifinalists in VEX Worlds, and reached subdivision playoffs at VEX Worlds in the 2021-2022 season after qualifying
+                through skills.
                 <div style={{textAlign: "center", marginTop: "30px"}}>
                     <iframe title="VR Driving Simulation" width="560" height="315" src="https://www.youtube.com/embed/8iuNajfST8g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
@@ -53,7 +54,7 @@ const TEAM_INFO = {
         images: [ImgX2, ImgX3, ImgX1, ImgX4]
     },
     V: {
-        subtitle: "",
+        subtitle: "Natalie Lim, Sophia Zhang, Valeria Ruelas",
         content: (
             <p>
                 
@@ -62,7 +63,7 @@ const TEAM_INFO = {
         images: []
     },
     Y: {
-        subtitle: "",
+        subtitle: "Cayley Tolbert-Schwartz, Everett Tolbert-Schwartz",
         content: (
             <p>
                 
@@ -74,7 +75,7 @@ const TEAM_INFO = {
         subtitle: "Jack Austen, Oren Hartstein",
         content: (
             <p>
-                62Z is a team of juniors who have built up experience from competing in the 2019-2020 Tower Takeover season.
+                62Z is a team of sophomores and juniors who have built up experience from competing in the 2019-2020 Tower Takeover season.
                 They made it to quarterfinals in the San Diego State Championship.
             </p>
         ),
