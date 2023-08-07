@@ -42,8 +42,8 @@ export default class HomePage extends React.Component {
                         Team 62 is <a href="https://hw.com" target="_blank" rel="noreferrer" style={{textDecoration: "underline"}}>Harvard-Westlake</a> Upper School's VEX Robotics program, located in Studio City, California.
                         <div style={{marginTop: "15px"}} />
                         The HW Robotics team designs, builds, and programs robots to compete in local and regional VEX tournaments.
-                        We have been competing in VRC since 2015, and our teams have competed in the world championships. Harvard-Westlake is home to the reigning world champions, team 62B.
-                        This year, six teams are collaborating to design and build robots for the 2021-2022 <i>Tipping Point</i> competition,
+                        We have been competing in VRC since 2015, and our teams have competed in the world championships. Harvard-Westlake is home to the 2020-2021 world champions.
+                        This year, seven teams are collaborating to design and build robots for the 2021-2022 <i>Tipping Point</i> competition,
                         and even more teams are learning to engineer robots that are competition-ready.
                         <div style={{marginTop: "15px"}} />
                         HW offers many great resources to help teams thrive, such as state-of-the-art technology for prototyping and building.
